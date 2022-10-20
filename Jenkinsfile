@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello World from Build Step'
+                echo 'Hello space added World from Build Step'
             }
         }
         stage('Test') {
